@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>轮播图组件</title>
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<div id="fade">
+		<div class="banner_inner">
+			<ul class="imgbox">
+				<li>
+					<a href="javascript:alert(1);">
+						<img src="images/banner1.jpg" />
+					</a>
+				</li>
+				<li>
+					<a href="javascript:alert(2);;">
+						<img src="images/banner2.jpg" />
+					</a>
+				</li>
+				<li>
+					<a href="javascript:alert(3);;">
+						<img src="images/banner3.jpg" />
+					</a>
+				</li>
+				<li>
+					<a href="javascript:alert(4);;">
+						<img src="images/banner4.jpg" />
+					</a>
+				</li>
+				<li>
+					<a href="javascript:alert(5);;">
+						<img src="images/banner5.jpg" />
+					</a>
+				</li>
+			</ul>
+
+			<a href="javascript:;" class="arrow pre"> < </a>
+			<a href="javascript:;" class="arrow next"> > </a>
+
+			<div class="tab">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+	</div>
+
+	<div id="slide">
+		<div class="banner_inner">
+			<ul class="imgbox">
+				<li>
+					<a href="javascript:alert(1);">
+						<img src="images/banner1.jpg" />
+					</a>
+				</li>
+				<li>
+					<a href="javascript:alert(2);;">
+						<img src="images/banner2.jpg" />
+					</a>
+				</li>
+				<li>
+					<a href="javascript:alert(3);;">
+						<img src="images/banner3.jpg" />
+					</a>
+				</li>
+				<li>
+					<a href="javascript:alert(4);;">
+						<img src="images/banner4.jpg" />
+					</a>
+				</li>
+				<li>
+					<a href="javascript:alert(5);;">
+						<img src="images/banner5.jpg" />
+					</a>
+				</li>
+			</ul>
+
+			<a href="javascript:;" class="arrow pre"> < </a>
+			<a href="javascript:;" class="arrow next"> > </a>
+
+			<div class="tab">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/LoopImgs.js"></script>
+	<script>
+		window.onload = function(){
+			let $container_1 = document.getElementsByClassName("imgbox")[0];
+			let $pre_1 = document.getElementsByClassName("pre")[0];
+			let $next_1 = document.getElementsByClassName("next")[0];
+			let $tabs_1 = Array.from(document.getElementsByClassName("tab")[0].children);
+			let hoverClass_1 = "on", time_gap_1 = 3000;
+			const obj_1 = {
+				$container: $container_1 ,
+				$pre: $pre_1,
+				$next: $next_1,
+				$tabs: $tabs_1,
+				hoverClass: hoverClass_1,
+				time_gap: time_gap_1
+			};
+
+			LoopImgsFactory('fade', obj_1);
+
+			let $container_2 = document.getElementsByClassName("imgbox")[1];
+			let $pre_2 = document.getElementsByClassName("pre")[1];
+			let $next_2 = document.getElementsByClassName("next")[1];
+			let $tabs_2 = Array.from(document.getElementsByClassName("tab")[1].children);
+			let hoverClass_2 = "on", time_gap_2 = 3000;
+			const obj_2 = {
+				$container: $container_2 ,
+				$pre: $pre_2,
+				$next: $next_2,
+				$tabs: $tabs_2,
+				hoverClass: hoverClass_2,
+				time_gap: time_gap_2
+			};
+			LoopImgsFactory('slide', obj_2);
+		}
+	</script>
+</body>
+</html>
