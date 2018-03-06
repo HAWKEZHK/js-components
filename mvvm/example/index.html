@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>MVVM</title>
+</head>
+	<body>
+		<div id="vue-app">
+			<input type="text" v-model="word">
+			<p>{{word}}</p>
+			<button v-on:click="sayHi">change model</button>
+		</div>
+
+		<script src="dist/index.bundle.js"></script>
+	</body>
+</html>
