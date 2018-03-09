@@ -7,12 +7,12 @@
 ### 目前完成
 + **loopImgs**<br/>
 简介：面向对象轮播图<br/>
-在线预览: [传送门](http://htmlpreview.github.io/?https://github.com/HAWKEZHK/js-components/blob/master/LoopImgs/example/index.html)
+在线预览: [传送门](https://hawkezhk.github.io/js-components/loopImgs/example/index.html)
 
 + **progress-indicator**<br/>
 简介：类似阮一峰老师的《ECMAScript 6 入门》的那个网站的顶部的进度条<br/>
-在线预览: [传送门](http://htmlpreview.github.io/?https://github.com/HAWKEZHK/js-components/blob/master/progress-indicator/example/index.html)
+在线预览: [传送门](https://hawkezhk.github.io/js-components/progress-indicator/example/index.html)
 
 + **mvvm**<br/>
 简介：模拟vue双向绑定原理<br/>
-在线预览: [传送门](http://htmlpreview.github.io/?https://github.com/HAWKEZHK/js-components/blob/master/mvvm/example/index.html)
+在线预览: [传送门](https://hawkezhk.github.io/js-components/mvvm/example/index.html)
