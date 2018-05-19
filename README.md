@@ -2,6 +2,7 @@
 ### 目的
 * 主要用于锻炼原生能力
 * 学习并整理一些常用的设计模式
+* 理解一些主流框架的原理，如vue、react
 * 会写一些现在UI框架提供的组件，但不是提供使用，只为理解其中做法
 
 ### 目前完成
@@ -16,3 +17,7 @@
 + **mvvm**<br/>
 简介：模拟vue双向绑定原理<br/>
 在线预览: [传送门](https://hawkezhk.github.io/js-components/mvvm/example/index.html)
+
++ **mini-redux**<br/>
+简介：模拟redux、react-redux、redux-thunk的实现原理<br/>
+在线预览: [传送门](https://hawkezhk.github.io/js-components/mini-redux/example/build/index.html)
