@@ -20,4 +20,3 @@
 
 + **mini-redux**<br/>
 简介：模拟redux、react-redux、redux-thunk的实现原理<br/>
-在线预览: [传送门](https://hawkezhk.github.io/js-components/mini-redux/example/build/index.html)
